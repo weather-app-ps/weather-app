@@ -9,7 +9,7 @@ const global = {
 
 async function displayCurrTemp(query) {
     let result = `http://api.openweathermap.org/geo/1.0/zip?zip=${query},US&appid=2900a9d94e25de2983610e7e1aed3e21`;
-    console.log(result)
+    console.log(result);
 }
 
 function init() {

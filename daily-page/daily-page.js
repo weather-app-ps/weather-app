@@ -35,5 +35,6 @@ async function getWeather(zip_code)
     }
 }
 console.log(global);
+console.log('hiii');
 
 getWeather("02120");

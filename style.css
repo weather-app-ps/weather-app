@@ -160,4 +160,10 @@ body {
     border-radius: 1rem;
     margin: 0px, 0px;
     min-height: 350px;
+    padding: 20px 20px;
+}
+
+.panel-content {
+    text-align: center;
+    
 }

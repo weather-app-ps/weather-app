@@ -14,7 +14,6 @@ body {
     height: 100%;
 }
 
-
 /* Navigation bar */
 .navbar-nav {
     flex-grow: 1;
@@ -52,16 +51,15 @@ body {
 
 /* Card */
 .card {
-    height: 100%;
-}
-
-.flex-row {
-    display: flex;
-    justify-content: space-between;
+    height: 500px;  
 }
 
 .card-title {
     font-size: 60px;
+}
+
+.card-body {
+   
 }
 
 /* Hourly card */
@@ -88,7 +86,7 @@ body {
 
 /* Title */
 #location-title {
-    margin: 30px;
+    margin: 50px;
     text-align: center;
     color: whitesmoke;
 }

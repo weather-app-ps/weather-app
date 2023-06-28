@@ -14,9 +14,9 @@ async function searchCurrTemp(query) {
     let lat = data.lat;
     let lon = data.lon;
     
-    let tempGrab = await fetch (`https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&appid=2900a9d94e25de2983610e7e1aed3e21`);
+    let tempGrab = await fetch (`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=2900a9d94e25de2983610e7e1aed3e21`);
     let result = await tempGrab.json();
-    console.log(result);
+    console.log(result.main.temp);
 }
 
   

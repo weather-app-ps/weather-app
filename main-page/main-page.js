@@ -37,13 +37,13 @@ async function searchCurrTemp(query) {
     displayCurrTemp.innerHTML = currTemp;
 }
 
+function clicked() {
+    console.log("hiii");
+}
+
   
 
 function init() {
-    // form.addEventListener('submit', (zipcode) => {
-    //     //inputs user input zipcode into api url
-    //     //returns the info
-    // });
 
     searchCurrTemp("02478");
 }

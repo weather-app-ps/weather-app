@@ -33,7 +33,8 @@ async function searchCurrTemp(query) {
 
     const currTemp = result.main.temp;
 
-    console.log(currTemp);
+    const displayCurrTemp = document.getElementById("current-temp");
+    displayCurrTemp.innerHTML = currTemp;
 }
 
   

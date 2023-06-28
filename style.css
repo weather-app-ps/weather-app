@@ -175,6 +175,7 @@ body {
     display: flex;
     /* justify-content: center; */
     flex-direction: column;
+    color: #002747;
 }
     
 .day {
@@ -185,6 +186,7 @@ body {
 .date {
     /* padding-bottom: 80px; */
     justify-content: center;
+    color: #245b88;
 }
 
 .weather-icon {
@@ -194,6 +196,10 @@ body {
 
 .high-temp {
     font-weight: bold;
+}
+
+.low-temp {
+    color: #245b88;
 }
 
 #today-panel {

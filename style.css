@@ -117,19 +117,26 @@ body {
     }
 }
 
+
+/* Components of Daily/5-Day Forecast Page */
 .daily-background {
     height: 100%;
-    background-color: aquamarine;
+    background-color: #002747;
     padding: 20px;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
 }
 
 .title-bar {
-    padding-bottom: 20px;
+    padding: 30px 0px;
     text-align: center;
+}
+
+.title-text {
+    color: white;
+    font-weight: bold;
 }
 
 .weather-panels {
@@ -147,7 +154,7 @@ body {
     grid-template-columns: repeat(5, 250px);
     grid-template-rows: repeat(1, 450px);
     /* grid-column-gap: 60px; */
-    background-color: blueviolet;
+    background: linear-gradient(to bottom, #327cb8, rgb(229, 212, 249));;
     padding: 0px 40px;
 
 }
@@ -172,9 +179,26 @@ body {
     
 .day {
     padding-top: 50px;
+    font-weight: bold;
 }
 
 .date {
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
     justify-content: center;
+}
+
+.weather-icon {
+    margin: 10px 0px;
+    padding: 10px
+}
+
+.high-temp {
+    font-weight: bold;
+}
+
+#today-panel {
+    background-color: rgba(255, 255, 255, .80);
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: #44dcd0; */
 }

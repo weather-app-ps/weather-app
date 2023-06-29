@@ -58,10 +58,11 @@
 
       <!-- search bar -->
       <form class="form-inline my-2 my-lg-0 d-flex search-form">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search location..">
+        <input class="form-control mr-sm-2" type="search" id = "searchbar" placeholder="Search location..">
 
         <!-- button -->
-        <button class="btn my-2 my-sm-0 search-btn" onclick="clicked()" type="submit">Search</button>
+        <button class="btn my-2 my-sm-0 search-btn" onclick="clicked() "type="button">
+          Search</button>
       </form>
     </div>
   </nav>
@@ -70,8 +71,8 @@
 
   <div class="container-fluid bg">
     <!-- location display -->
-    <div class="row" id="location-title">
-      <h1>Weather in Boston</h1>
+    <div class="row">
+      <h1 id="location-title">Weather in Boston</h1>
     </div>
 
     <!-- body main contents of page -->

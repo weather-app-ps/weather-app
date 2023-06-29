@@ -37,15 +37,20 @@ async function searchCurrTemp(query) {
     displayCurrTemp.innerHTML = currTemp;
 }
 
-function clicked() {
-    console.log("hiii");
+async function clicked() {
+    const zip = document.getElementById("searchbar").value;
+    console.log(zip);
+    await searchCurrTemp(zip);
+
+    const loc = document.getElementById("location-title");
+    loc.innerHTML = `Weather in ${zip}`;
 }
 
   
 
 function init() {
 
-    searchCurrTemp("02478");
+    //searchCurrTemp("02478");
 }
 
 window.addEventListener('DOMContentLoaded', init);
